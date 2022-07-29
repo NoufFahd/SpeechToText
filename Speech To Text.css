@@ -1,0 +1,51 @@
+        *{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        }
+        
+        body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        color: rgb(122, 108, 133);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin: 0;
+        background: rgb(205, 195, 195);
+        }
+        
+        .container {
+        text-align: left;
+        }
+        
+        h1 {
+        font-size: 20px;
+        color: rgb(96, 87, 87);
+        }
+
+        textarea {
+        width: 90%;
+        height: 70px;
+        border-radius: 17px;
+        font-size: 30px;
+        margin-bottom:20px;
+        border-color: green;
+        border-style: solid;
+        }
+
+        button,select{
+        padding: 15px 20px ;
+        background: rgb(179, 160, 160);
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: rgb(81, 51, 72);
+        }
+
+        button:hover,select:hover {
+        background: rgb(69, 78, 84);
+        color: rgb(186, 173, 173);
+        }
